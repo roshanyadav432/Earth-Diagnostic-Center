@@ -1,10 +1,13 @@
+html{
+  font-size: 20px;
+}
 * {
   padding: 0;
   margin: 0;
   background-color: rgb(249, 252, 252);
   font-family: 'Times New Roman', Times, serif;
   color: #3c5342;
-  /* font-size: 20px; */
+  font-size: 1rem;
 }
 
 .header{
@@ -96,10 +99,11 @@
 .service_name {
 /* opacity: 0.99; */
 width: 24.2%;
-min-width: 300px;
+min-width: 350px;
 border: 1px solid #052945;
 border-radius: 5px;
 transition: transform 0.3s ease;
+/* transform: scale(1.1); */
 }
 
 @media screen and (max-width: 623px) {
@@ -132,13 +136,9 @@ transition: transform 0.3s ease;
 }
 
 .service_name:hover {
-  /* border: none; */
-  /* box-shadow: 1px 0px 6px 1px #8fa0a1; */
   box-shadow: 1px 0px 6px 1px rgb(197, 193, 193);
   border-radius: 5px rgb(85, 144, 139);
   transform: scale(1.1);
-    /* Optional for smooth scaling */
-  /* opacity: 1; */
   z-index: 1;
 }
 
@@ -439,9 +439,9 @@ overflow-y: scroll;
 .docs{
   border: 2px solid rgb(207, 225, 227);
   width: 30%;
-  min-width: 300px;
+  min-width: 350px;
   padding: 2px;
-border-radius: px;
+border-radius:5px;
 }
 
 .docImg{
@@ -508,10 +508,14 @@ border-radius: px;
 }
 .connect_banner{
   width: 100%;
+ border: 2px solid green;
+ /* height: 500px; */
  
 }
 #banner{
   width: 100%;
+  object-fit: cover;
+  height: 70vh;
 }
 #link{
   font-size: larger;
@@ -544,17 +548,17 @@ border-radius: px;
 #img_icon{
   width: 30px;
   background-color: #28343b;
+  /* border: 2px solid red; */
 }
-/* .images{
-  /* width: max-content; */
-  /* border: 5px solid green; */
-  /* width:60%; */
-  /* border: 2px solid green; */
-/* }  */
+#footerLink{
+  background-color: #28343b;
+}
+
 .bold{
   background-color:#28343b;
   color: white;
   margin-left: 10px;
+  /* border: 2px solid red; */
  
  
 }
@@ -573,7 +577,7 @@ padding: 10px;
 
 .share{
   background-color: #28343b;
-    color: white;
+    /* color: white; */
     /* border:2px solid aqua; */
     /* width: 30%; */
 }
@@ -582,7 +586,8 @@ padding: 10px;
   background-color: #28343b;
   display: flex;
   justify-content: center;
- gap:10px;
+  gap:10px;
+  
 }
 
 .copyright{

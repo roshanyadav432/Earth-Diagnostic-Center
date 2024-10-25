@@ -12,6 +12,7 @@ function Footer() {
           {/* First images and info */}
           <div className="footer_info">
             <a
+              id="footerLink"
               href="https://www.google.com/maps/place/Earth+Diagnostic+Centre/@19.2133567,72.9508435,822m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3be7b92e955da501:0xc3a0005093e33e14!8m2!3d19.2133567!4d72.9534184!16s%2Fg%2F11rb4sj1z4?entry=ttu&g_ep=EgoyMDI0MTAxNi4wIKXMDSoASAFQAw%3D%3D"
               target="new"
             >
@@ -24,7 +25,7 @@ function Footer() {
           </div>
           {/* second image and info */}
           <div className="footer_info">
-            <a href="tel:+919119812125">
+            <a href="tel:+919119812125" id="footerLink">
               <img id="img_icon" src={`${call}`} alt="Location Image" />
             </a>
 
@@ -32,7 +33,7 @@ function Footer() {
           </div>
           {/* Third image and info */}
           <div className="footer_info">
-            <a href="mailto:diagnosticearth@gmail.com">
+            <a href="mailto:diagnosticearth@gmail.com" id="footerLink">
               <img id="img_icon" src={`${mail}`} alt="Location Image" />
             </a>
             <div className="bold">diagnosticearth@gmail.com</div>
@@ -42,13 +43,21 @@ function Footer() {
         <div className="share">
           <h2 className="bold">Connect with us</h2>
           <div className="share_logo">
-            <a href="https://www.instagram.com/earth_diagnostic/" target="new">
+            <a
+              href="https://www.instagram.com/earth_diagnostic/"
+              target="new"
+              id="footerLink"
+            >
               <img src={insta} alt="image" id="img_icon" />
             </a>
-            <a href="https://www.facebook.com/earth_diagnostic/" target="new">
+            <a
+              href="https://www.facebook.com/earth_diagnostic/"
+              target="new"
+              id="footerLink"
+            >
               <img src={facebook} alt="image" id="img_icon" />
             </a>
-            <a href="https://x.com/" target="new">
+            <a href="https://x.com/" target="new" id="footerLink">
               <img src={twit} alt="image" id="img_icon" />
             </a>
           </div>
