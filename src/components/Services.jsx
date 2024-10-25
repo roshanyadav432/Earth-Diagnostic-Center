@@ -9,7 +9,7 @@ function Services() {
     AOS.init({
       disable: "phone",
       duration: 400,
-      easing: "ease-in-sine",
+      easing: "ease-in",
     });
   }, []);
 
