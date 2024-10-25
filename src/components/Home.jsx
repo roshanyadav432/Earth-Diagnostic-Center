@@ -2,12 +2,11 @@ import InfoCard from "../InfoCard";
 import Header from "./Header";
 import MyCarousel from "./MyCarousel";
 import Why_Choose_Us from "./Why_Choose_Us";
-// import connect from "../assets/communication.png";
 import Services from "./Services";
 import Faqs from "./Faqs";
 import Footer from "./Footer";
 import Skeleton, { SkeletonTheme } from "react-loading-skeleton";
-import "react-loading-skeleton/dist/skeleton.css";
+// import "react-loading-skeleton/dist/skeleton.css";
 function Home() {
   return (
     <div>
