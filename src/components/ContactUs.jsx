@@ -27,7 +27,6 @@ function ContactUs() {
         <div className="greet">
           <p
             style={{
-              fontSize: "17px",
               textAlign: "center",
               // backgroundColor: "aquamarine",
             }}

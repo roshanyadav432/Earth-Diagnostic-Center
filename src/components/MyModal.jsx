@@ -41,9 +41,9 @@ function MyModal() {
                 <>{testInfo.about}</>
               </p>
               <h4>
-                <b>
+                <b className=" btn btn-secondary" style={{ cursor: "auto" }}>
                   Price:
-                  <span>{testInfo.price}</span>
+                  {testInfo.price}
                 </b>
               </h4>
               <div className="order">

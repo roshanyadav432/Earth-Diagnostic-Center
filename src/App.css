@@ -1,5 +1,5 @@
 html{
-  font-size: 22px;
+  font-size: 16px;
 }
 * {
   padding: 0;
@@ -7,13 +7,13 @@ html{
   background-color: rgb(249, 252, 252);
   font-family: 'Times New Roman', Times, serif;
   color: #3c5342;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 .header{
   background-color: rgb(244, 246, 248);
   color: green;
-  font-size: large;
+  font-size: 1.2rem;
 }
 
 .numLoad {
@@ -27,6 +27,7 @@ html{
   border: 1px solid rgb(81, 147, 158);
    border-radius: 5px;
   box-Shadow: 1px 1px 8px 2px rgb(115, 139, 137);
+  font-size: 1.1rem;
 }
 
 .myRadius{
@@ -81,7 +82,7 @@ html{
 #myName{
   /* border: 2px solid red; */
   color: #00aaff;
-  font-Size: larger;
+  font-Size: 1.4rem;
   background-Color: rgb(244, 246, 248);
   text-decoration: none;
 }
@@ -91,6 +92,7 @@ html{
 .services {
   color: #3c5342;
   width: 100%;
+  /* font-size: 2rem; */
   /* border: 2px solid yellowgreen; */
 
 }
@@ -102,6 +104,7 @@ min-width: 350px;
 border: 1px solid #052945;
 border-radius: 5px;
 transition: transform 0.3s ease;
+/* font-size: 2rem; */
 /* transform: scale(1.1); */
 }
 
@@ -167,6 +170,7 @@ width: 70%;
 /* min-height: fit-content; */
 max-height: 100vh;
 overflow-y: scroll;
+font-size: 1.2rem;
 
 }
 
@@ -195,6 +199,7 @@ overflow-y: scroll;
   border: 1px solid rgb(10, 19, 10);
   height: 100vh;
   overflow-y: scroll;
+  font-size: 1.4rem;
  
 }
 .similarQueue{
@@ -421,18 +426,20 @@ overflow-y: scroll;
   justify-content: center;
   align-items: center;
   background-color: aquamarine;
+  /* min-height: 100vh; */
 }
 
 .team{
   width: 96%;
   margin-left: 2%;
-  /* border: 2px solid yellow; */
+  border: 1px solid rgb(234, 238, 237);
   padding: 1%;
   background-color: azure;
   display: flex;
   flex-wrap: wrap;
   gap:20px;
   justify-content: center;
+ /* height: 100vh; */
   /* min-width: 400px; */
 }
 
@@ -440,33 +447,45 @@ overflow-y: scroll;
   border: 2px solid rgb(207, 225, 227);
   width: 30%;
   min-width: 450px;
-  padding: 2px;
-border-radius:5px;
+  padding: 5px;
+  border-radius:5px;
+  font-size: 1.2rem;
+}
+.docInfo{
+  padding-left: 15px;
+  font-size: 1.1rem;
 }
 
 .docImg{
   display: flex;
   justify-content: center;
+  background-color: #d1e1e8;
 }
 
 
 #docImage{
-  width: 200px;
-  border-radius: 50%;
-  border: 2px solid green;
+  width: max-content;
+  border-radius: 10px;
+  border: 1px solid rgb(32, 35, 32);
   object-fit: cover;
+  transition: transform 0.3s ease;
 }   
+
+#docImage:hover{
+ 
+  box-shadow: 1px 1px 4px 1px rgb(135, 157, 193); 
+}
 
 .docs:hover {
   box-shadow: 2px 3px 10px 0px rgb(57, 105, 181);
-/* border: 2px solid salmon; */
-}
 
+}
 
 /* ContactUs */
 .Contact-Us{
   /* background-color: rgb(204, 192, 192); */
   margin-bottom: -30px;
+  font-size: 1.3rem;
 }
 
 .contacts-info{
@@ -478,6 +497,7 @@ border-radius:5px;
   flex-wrap: wrap;
   gap: 20px;
   padding: 2px;
+  /* font-size: 1.2rem; */
   /* background-color: rgb(204, 192, 192); */
 }
 
@@ -543,6 +563,7 @@ border-radius:5px;
   /* gap: 10px; */
   flex-wrap: wrap;
   justify-content: space-around;
+  font-size: 1.1rem;
 
 }
 #img_icon{

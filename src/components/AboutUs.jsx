@@ -34,7 +34,7 @@ function AboutUs() {
     {
       img: who,
       title: "Who are we",
-      desc: " We Are Founded in [Year], we are a team of experienced professionals dedicated to excellence in diagnostics. Our center is equipped with the latest technology and staffed by skilled technicians and healthcare providers who are passionate about patient care.",
+      desc: " We Are Founded in [2021], we are a team of experienced professionals dedicated to excellence in diagnostics. Our center is equipped with the latest technology and staffed by skilled technicians and healthcare providers who are passionate about patient care.",
     },
     {
       img: servicesImg,
