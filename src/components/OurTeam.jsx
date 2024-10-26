@@ -25,7 +25,7 @@ function OurTeam() {
     },
     {
       name: "Roshan Yadav",
-      position: "IT Department",
+      position: "-",
       exprience: "0",
       contact: 9119812125,
       img: img3,
