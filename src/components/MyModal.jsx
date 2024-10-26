@@ -69,7 +69,10 @@ function MyModal() {
                 return (
                   <div className="similarQueue" key={test.name}>
                     <div className="similar_img">
-                      <Link to={`/test/${test.name}`}>
+                      <Link
+                        to={`/test/${test.name}`}
+                        onClick={() => window.scrollTo(0, 0)}
+                      >
                         <img src={test.img} alt="image" id="similarImg" />
                       </Link>
                     </div>
