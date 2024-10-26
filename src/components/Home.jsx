@@ -59,7 +59,7 @@ function Home() {
         </div>
         <div className="click-container">
           <button id="click">
-            <a href="tel:+919960948975" id="call">
+            <a href="tel:+919119812125" id="call">
               Get an appointment
             </a>
           </button>

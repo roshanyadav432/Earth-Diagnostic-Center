@@ -1,5 +1,6 @@
 import Header from "./Header";
 import img1 from "../assets/Support.png";
+import Footer from "./Footer";
 function OurTeam() {
   const TeamInfo = [
     {
@@ -79,6 +80,7 @@ function OurTeam() {
           );
         })}
       </div>
+      <Footer />
     </div>
   );
 }

@@ -1,5 +1,5 @@
 html{
-  font-size: 20px;
+  font-size: 22px;
 }
 * {
   padding: 0;
@@ -33,7 +33,6 @@ html{
   border-radius: 5px;
   background-color: white;
 }
-
 
 .Nav {
   color: rgb(221, 230, 237);
@@ -106,14 +105,14 @@ transition: transform 0.3s ease;
 /* transform: scale(1.1); */
 }
 
-@media screen and (max-width: 623px) {
+@media screen and (max-width: 1072px) {
 .service_name {
-  min-width: 80%;
+  min-width: 450px;
   }
 }
 
 .service-content {
-  /* border: 2px solid rgb(192, 188, 188); */
+  /* border: 2px solid rgb(219, 12, 12); */
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -434,12 +433,13 @@ overflow-y: scroll;
   flex-wrap: wrap;
   gap:20px;
   justify-content: center;
+  /* min-width: 400px; */
 }
 
 .docs{
   border: 2px solid rgb(207, 225, 227);
   width: 30%;
-  min-width: 350px;
+  min-width: 450px;
   padding: 2px;
 border-radius:5px;
 }
@@ -508,7 +508,7 @@ border-radius:5px;
 }
 .connect_banner{
   width: 100%;
- border: 2px solid green;
+ /* border: 2px solid green; */
  /* height: 500px; */
  
 }
@@ -553,6 +553,10 @@ border-radius:5px;
 #footerLink{
   background-color: #28343b;
 }
+.footer_info{
+  background-color: #28343b;
+  border: #28343b;
+}
 
 .bold{
   background-color:#28343b;
@@ -562,24 +566,21 @@ border-radius:5px;
  
  
 }
+
+
 .footer_info{
   /* margin-top: 0.5px; */
   background-color: #28343b;
-    color: white;
+  color: white;
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
   align-items: center;
-/* border: 2px solid red; */
-padding: 10px;
-/* width: 100%; */
+  padding: 10px;
+
 }
 
 .share{
   background-color: #28343b;
-    /* color: white; */
-    /* border:2px solid aqua; */
-    /* width: 30%; */
 }
 
 .share_logo{

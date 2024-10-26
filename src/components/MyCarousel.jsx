@@ -17,6 +17,7 @@ function MyCarousel() {
       showThumbs={false}
       interval={5000}
       transitionTime={1000}
+      showIndicators={false}
     >
       <div>
         <video
@@ -26,6 +27,16 @@ function MyCarousel() {
           type="video/mp4"
           loop={true}
           src={`${four}`}
+        ></video>
+      </div>
+      <div>
+        <video
+          className="video"
+          autoPlay={true}
+          muted={true}
+          type="video/mp4"
+          loop={true}
+          src={`${one}`}
         ></video>
       </div>
       <div>
@@ -55,7 +66,7 @@ function MyCarousel() {
           muted={true}
           type="video/mp4"
           loop={true}
-          src={`${one}`}
+          src={`${four}`}
         ></video>
       </div>
       <div>
