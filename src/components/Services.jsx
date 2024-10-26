@@ -9,7 +9,7 @@ function Services() {
     AOS.init({
       disable: "phone",
       duration: 400,
-      easing: "ease-in",
+      easing: "ease-in-sine",
     });
   }, []);
 
@@ -27,7 +27,11 @@ function Services() {
               data-aos="fade-up"
               data-aos-delay="20"
             >
-              <Link to={`/Test/${service.name}`} id="link">
+              <Link
+                to={`/Test/${service.name}`}
+                onClick={() => window.scrollTo(0, 0)}
+                id="link"
+              >
                 <img id="s_img" src={`${service.img} `} alt="" />
               </Link>
 

@@ -26,7 +26,7 @@ function OurTeam() {
     {
       name: "Roshan Yadav",
       position: "-",
-      exprience: "0",
+      exprience: "1",
       contact: 9119812125,
       img: img3,
       qualification: "BSc IT (Bachelor of Science in Information Technology)",
@@ -35,40 +35,44 @@ function OurTeam() {
   ];
   return (
     <div>
-      <Header />
-
-      <div className="headSect">
-        <h2 style={{ backgroundColor: "aquamarine" }}>MEET OUR TEAM</h2>
+      <div className="head">
+        <Header />
       </div>
 
-      <div className="team">
-        {TeamInfo.map((member) => {
-          return (
-            <div className="docs" key={member.name}>
-              <div className="upper">
-                <div className="docImg">
-                  <img src={`${member.img}`} alt="image" id="docImage" />
+      <div className="teamcontent">
+        <div className="headSect">
+          <h2 style={{ backgroundColor: "aquamarine" }}>MEET OUR TEAM</h2>
+        </div>
+
+        <div className="team">
+          {TeamInfo.map((member) => {
+            return (
+              <div className="docs" key={member.name}>
+                <div className="upper">
+                  <div className="docImg">
+                    <img src={`${member.img}`} alt="image" id="docImage" />
+                  </div>
+                  <div className="docInfo">
+                    <p>
+                      Name: <b>{member.name}</b>
+                    </p>
+                    <p>
+                      Position: <b>{member.position}</b>
+                    </p>
+                    <p>
+                      Exprience: <b>{member.exprience} yrs</b>
+                    </p>
+                    <p>
+                      Contact No: <b>{member.contact}</b>
+                    </p>
+                    <div className="aboutDocs">{member.bio}</div>
+                  </div>
                 </div>
-                <div className="docInfo">
-                  <p>
-                    Name: <b>{member.name}</b>
-                  </p>
-                  <p>
-                    Position: <b>{member.position}</b>
-                  </p>
-                  <p>
-                    Exprience: <b>{member.exprience} yrs</b>
-                  </p>
-                  <p>
-                    Contact No: <b>{member.contact}</b>
-                  </p>
-                  <div className="aboutDocs">{member.bio}</div>
-                </div>
+                {/* about doctors */}
               </div>
-              {/* about doctors */}
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
 
       <div className="team-footer">

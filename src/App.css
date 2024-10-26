@@ -449,6 +449,11 @@ font-size: 1.2rem;
   border-radius:5px;
   font-size: 1.2rem;
 }
+@media screen and (max-width: 1072px) {
+  .docs {
+    width: 100%;
+  }
+}
 .docInfo{
   padding-left: 15px;
   font-size: 1.1rem;
