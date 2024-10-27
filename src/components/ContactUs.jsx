@@ -8,6 +8,7 @@ import insta from "../assets/instagram.png";
 import twit from "../assets/twitter.png";
 import banner from "../assets/connect-us.png";
 import Footer from "./Footer";
+import free from "../assets/free_delivery.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 function ContactUs() {
@@ -28,7 +29,6 @@ function ContactUs() {
           <p
             style={{
               textAlign: "center",
-              // backgroundColor: "aquamarine",
             }}
           >
             Thank you for reaching out! If you have any questions or need
@@ -39,7 +39,10 @@ function ContactUs() {
           </h2>
         </div>
         <div className="connect_banner" data-aos="fade-up">
-          <img src={banner} alt="image" id="banner" />
+          <img src={banner} alt="image" id="banner_contact" />
+        </div>
+        <div className="connect_banner" data-aos="fade-up">
+          <img src={free} alt="image" id="banner_contact" />
         </div>
         <div className="contacts-info" data-aos="fade-right">
           <div className="call">

@@ -7,7 +7,7 @@ import five from "../assets/HBSAGS.png";
 import six from "../assets/Pancreas.png";
 import seven from "../assets/Ecg.png";
 import eight from "../assets/fitness.png";
-import nine from "../assets/Stool.png";
+// import nine from "../assets/CBC.png";
 import ten from "../assets/ANC.png";
 import eleven from "../assets/HIV.png";
 import tweleve from "../assets/Full_body.png";
@@ -81,13 +81,13 @@ let services = [
       "HBsAg, or Hepatitis B Surface Antigen, is a protein on the surface of the Hepatitis B virus (HBV). Its presence in the blood indicates that a person is currently infected with the virus and is potentially contagious.",
   },
 
-  {
-    name: "Stool Routine ",
-    price: 150,
-    img: nine,
-    about:
-      "A stool test, also known as a stool analysis or fecal test, is a laboratory examination of a sample of stool (feces) to assess digestive health and identify various gastrointestinal conditions. Stool tests can help diagnose infections, malabsorption disorders, and other gastrointestinal diseases.",
-  },
+  // {
+  //   name: "Stool test ",
+  //   price: 150,
+  //   img: nine,
+  //   about:
+  //     "A stool test, also known as a stool analysis or fecal test, is a laboratory examination of a sample of stool (feces) to assess digestive health and identify various gastrointestinal conditions. Stool tests can help diagnose infections, malabsorption disorders, and other gastrointestinal diseases.",
+  // },
   {
     name: "Hiv Test",
     price: 400,
